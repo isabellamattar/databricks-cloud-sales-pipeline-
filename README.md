@@ -67,3 +67,28 @@ Silver - Dados tratados
       |
       v
 Gold - Indicadores analíticos
+
+## Resultados da análise
+
+O pipeline foi executado com um conjunto de 10 vendas de exemplo.
+
+| Indicador | Resultado |
+|---|---:|
+| Faturamento total geral | R$ 21.400,00 |
+| Quantidade de vendas | 10 |
+| Ticket médio | R$ 2.140,00 |
+
+### Faturamento por categoria
+
+| Categoria | Faturamento |
+|---|---:|
+| Tecnologia | R$ 16.000,00 |
+| Acessorios | R$ 3.000,00 |
+| Moveis | R$ 2.400,00 |
+
+### Principais observações
+
+- Tecnologia apresentou o maior faturamento no conjunto de dados.
+- O ticket médio foi de R$ 2.140,00 por venda.
+- A arquitetura em camadas separou os dados brutos, tratados e agregados.
+
