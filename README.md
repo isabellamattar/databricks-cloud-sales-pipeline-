@@ -53,3 +53,17 @@ Tabela: `gold_faturamento_categoria`.
 - Documentar os resultados das consultas
 - Adicionar evidências do pipeline
 - Melhorar as validações de qualidade dos dados
+
+- ## Arquitetura
+
+```text
+Dados de vendas
+      |
+      v
+Bronze - Dados brutos
+      |
+      v
+Silver - Dados tratados
+      |
+      v
+Gold - Indicadores analíticos
